@@ -1,0 +1,487 @@
+@charset "UTF-8";
+body
+{
+	font-family: 'Noto Sans KR', sans-serif;
+	color:#000;
+	padding-top: 180px;
+}
+
+a, a:link
+{
+	color:#333;
+	text-decoration:none;
+}
+
+/* header */
+
+header
+{
+	background:#f9f9f9;
+	border-bottom:1px solid #eee;
+	box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+.brand
+{
+	font-weight: 800;
+	text-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.top-nav
+{
+	font-size:10px;
+	line-height: 20px;
+	color:#999;
+}
+
+.top-nav a
+{
+	font-size: 14px;
+	color:#999;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#hellouser
+{
+	font-size: 14px;
+    color: #999;
+	margin: 8px;
+}
+
+#hellouser strong
+{
+	color: #000;
+}
+
+.navi
+{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navi a
+{
+	font-weight: 400;
+	padding: 5px 20px;
+	transition: all 300ms;
+}
+
+.navi a:hover
+{
+	text-decoration-color:red;
+	text-decoration-style:dashed;
+	text-decoration-line:underline;
+	color:#800000;
+	background:#ededed;
+}
+
+
+footer
+{
+	width:100%;
+	border-top: 1px solid #ddd;
+	bottom:0;
+	left:0;
+	text-align: center;
+	padding-top:5px;
+	padding-bottom: 100px;
+	font-size: 14px;
+	color:#999;
+	background-color:#f9f9f9;
+	z-index:99;
+}
+
+/* register */
+
+.registerform
+{
+	max-width: 600px;
+	padding:20px 30px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#efefef;
+	border: 1px solid #eee;
+	border-radius:10px;
+	box-shadow:0 0 5px 0 rgba(0,0,0,0.25),
+			   0 0 15px 0 rgba(0,0,0,0.14);
+}
+
+.cantuse
+{
+	color:#EB6769;
+	display:none;
+}
+
+/* login */
+
+.loginform
+{
+	max-width: 600px;
+	padding:40px 80px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#efefef;
+	border: 1px solid #eee;
+	border-radius:10px;
+	box-shadow:0 0 5px 0 rgba(0,0,0,0.25),
+			   0 0 15px 0 rgba(0,0,0,0.14);
+}
+
+.wh600
+{
+	max-width:600px;
+	padding:20px 80px;
+	margin-bottom: 50px;
+}
+
+.naver-btn
+{
+	background-color: rgb(62,175,14);
+	color:#fff !important;
+	font-weight: 600;
+}
+
+.naver-btn:hover
+{
+	color:#fff;
+}
+
+.kakao-btn
+{
+	background-color: rgb(255,232,18);
+	color:#000;
+	font-weight: 600;
+}
+
+/* 게시판  */
+
+.newboard a
+{
+	padding:10px 15px;
+	background-color:#0d6efd;
+	color:#eee;
+	border-radius:5px;
+}
+
+.bwriteform,.bmodifyform
+{
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content-td
+{
+	max-width:300px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding:0 !important;
+}
+
+.tdtitle
+{
+	max-width:218px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+.content-td a
+{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding:8px;
+}
+
+.content-td a:hover
+{
+	background-color:#999;
+	color:#efefef;
+}
+
+.bbsh1
+{
+	font-size:16px;
+}
+
+#title
+{
+	border:0;
+	outline:0;
+	border-bottom:1px solid #ddd;
+}
+
+#content
+{
+	height:300px;
+	resize:none;
+}
+
+#bbsselect
+{
+	width:100%;
+}
+
+.writething
+{
+	text-align:left;
+	color:#EB6769;
+	display:none;
+}
+
+.board-form
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bform-h
+{
+	font-size:30px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ddd;
+}
+
+.wname
+{
+	font-weight:bold;
+}
+
+.wday
+{
+	font-size:14px;
+	color:#555;
+}
+
+.wview
+{
+	font-size:14px;
+}
+
+.wcontent
+{
+	width:100%;
+	min-height:200px;
+	border:1px solid #ddd;
+	resize:none;
+	outline:none;
+}
+
+.watchlist a
+{
+	display:block;
+	width:100%;
+	text-align:center;
+	padding:5px 0;
+	border-bottom:1px solid #ddd;
+	background-color:#efefef;
+	letter-spacing:2px;
+}
+
+/* 수정 */
+
+.tright
+{
+	text-align:right;
+}
+
+.modifya
+{
+	white-space:nowrap;
+	border:1px solid #333;
+	border-radius:3px;
+	padding:2px 8px;
+}
+
+/* 댓글 */
+
+.commenth
+{
+	font-size:25px;
+	margin-bottom:10px;
+}
+
+#comment,.modcomment
+{
+	width:100%;
+	resize:none;
+}
+
+.commentbtn
+{
+	padding:5px 10px;
+	background-color:#0d6efd;
+	color:#eee;
+	border:0;
+	border-radius:5px;
+}
+
+.commentbox span,.commentbox span a
+{
+	color:#EB6769;
+}
+
+.commentbox span a
+{
+	font-weight:bold;
+}
+
+.commentlist
+{
+	list-style: none;
+}
+
+.commentlist li
+{
+	margin:15px 0;
+}
+
+.comname .name
+{
+	font-size:16px;
+	font-weight:bolder;
+}
+
+.comname .date
+{
+	font-size:14px;
+	color:#555;
+}
+
+.comname button
+{
+	font-size:14px;
+	margin-right: 8px;
+	padding:0 2px;
+	border:0;
+	background-color:#fff;
+}
+
+.mbutton:hover
+{
+	color:#0d6efd;
+}
+
+.dbutton:hover
+{
+	color:#EB6769;
+}
+
+.comcontent
+{
+	padding:8px 0;
+	background-color:#efefef;
+}
+
+.commodify
+{
+	display:none;
+}
+
+.modbtn button
+{
+	border-radius:3px;
+	border:1px solid #333;
+	color:#fff;
+}
+
+.nocomment
+{
+	font-size:17px;
+}
+
+.contentlink
+{
+	text-decoration:underline !important;
+}
+
+/* main */
+
+.mainul
+{
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.mainul li
+{
+	margin:0;
+}
+
+.mainleftli a
+{
+	max-width:397px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.besth1
+{
+	font-size:15px;
+}
+
+.besth1 span
+{
+	font-size:13px;
+}
+
+.bestcon
+{
+	border:1px solid #ddd;
+	border-radius:5px;
+	color:#000;
+	cursor:pointer;
+	transition: all 0.3s;
+	box-shadow:0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.bestcon:hover
+{
+	color:#000;
+	box-shadow:0 0 40px 0 rgba(0,0,0,0.4);
+}
+
+.bestconbox
+{
+	border:1px solid #ddd;
+}
+
+.bestinf
+{
+	font-size:13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

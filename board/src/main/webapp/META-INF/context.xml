@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource
+	name="jdbc/bbswork"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="root"
+	password="dnjsghd6861"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/bbswork?useUnicode=true&amp;characterEncoding=UTF-8"
+	maxActive="80"
+	maxWait="1000"
+	removeAbandoned="true"
+/>
+</Context>
