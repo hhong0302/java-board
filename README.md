@@ -1,4 +1,12 @@
 # java와 servlet을 이용한 게시판 작업입니다.
+
+## 개발 환경
+#### · JDK-11
+#### · IDE : eclipse
+#### · Framework : Java Maven Project
+#### · Database : MySQL(8.0.33)
+#### · Server : Apache tomcat 9.0.46
+
 ## 페이지 구성은 다음과 같습니다.
 ### 기본 페이지 (index)
 ### 메인 페이지 (main)
