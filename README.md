@@ -2,7 +2,7 @@
 
 ## 개발 환경
 #### · JDK-11
-#### · IDE : eclipse
+#### · IDE : Eclipse IDE
 #### · Framework : Java Maven Project
 #### · Database : MySQL(8.0.33)
 #### · Server : Apache tomcat 9.0.46
